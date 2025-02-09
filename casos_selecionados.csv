@@ -1,0 +1,11 @@
+case
+O campo senha deve seguir regra <regra>
+Cadastro de perfil com identificador existente
+Realizar ação sem ter feito login
+Editar informações do condomínio com sucesso
+Cancelar cadastro de área comum com sucesso
+Cancelar cadastro de peril com sucesso
+Executar ação sem ter feito login
+Editar reserva deixando os campos obrigatórios do formulário em branco
+Registrar com senha diferente da confirmação
+Cadastro de sprint com data inicial maior que data final

@@ -1,0 +1,106 @@
+id,name,purpose,precondition,execution_type,steps,project_id,user_story_id,priority,reused_id,active,migrate_id
+2,Cancelar cadastro de Entidade com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,2
+6,Editar informações da entidade com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,6
+7,Editar entidade alterando o ID para um existente,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,7
+8,Editar entidade deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,8
+25,O campo senha deve seguir regra,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,25
+28,Fazer primeiro login do usuário,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,28
+30,Recuprar senha com sucesso.,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,30
+38,Verificar cadastro de mais de um administrador,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,38
+39,Verificar campos senha e confirmação,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,39
+40,Fazer login com usuário e senha válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,40
+1084,Login com senha inválida,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,60.0,True,1152
+55,Executar ação sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,55
+57,Recuperar senha com nome de usuário inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,57
+58,Recuperar senha com nome de usuário não cadastrado,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,58
+59,Fazer login com usuário inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,59
+60,Fazer login com senha inválida,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,60
+61,Fazer login com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,1,1,M,,True,61
+64,Cadastro de Sprint com fora do período do projeto,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,,True,64
+65,Cadastro de Sprint com período conflitante com outra sprint,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,,True,65
+250,Login with known credentials,Imported from sheet,Imported from sheet,M,Imported from sheet,5,56,M,40.0,True,261
+279,"Editar usuário com campo ""E-mail"" vazio.",Imported from sheet,Imported from sheet,M,Imported from sheet,6,64,M,8.0,True,290
+548,Verificar campo senha e confirmação,Imported from sheet,Imported from sheet,M,Imported from sheet,8,107,M,39.0,True,608
+549,Editar com dados válidos,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,6.0,True,609
+550,Editar com dados inválidos,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,7.0,True,610
+552,Editar sem estar logado,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,13.0,True,612
+553,Editar sem campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,8.0,True,613
+554,Editar com username existente,Imported from sheet,Imported from sheet,M,Imported from sheet,8,108,M,7.0,True,614
+567,Criação de contrato sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,113,M,13.0,True,627
+572,Criação de gestor sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,114,M,13.0,True,632
+575,Exclusão de conta de gestor sem autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,9,115,M,13.0,True,635
+710,Cadastro de perfil com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,157,M,1.0,True,776
+711,Cadastro de perfil com identificador existente,Imported from sheet,Imported from sheet,M,Imported from sheet,11,157,M,3.0,True,777
+713,Cancelar cadastro de peril com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,157,M,2.0,True,779
+716,Editar perfil modificando para um valor existente,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,7.0,True,782
+717,Editar perfil sem campos obrigatórios,Imported from sheet,Imported from sheet,M,Imported from sheet,11,158,M,8.0,True,783
+735,Cancelar cadastro de SLA com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,164,M,2.0,True,801
+770,Cancelar cadastro de produto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,11,173,M,2.0,True,836
+788,Cancelar cadastro de área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,177,M,2.0,True,854
+793,Editar informações da área comum com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,178,M,6.0,True,859
+800,Editar entidade alterando o nome para um existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,178,M,7.0,True,866
+839,Cancelar cadastro de condomínio com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,184,M,2.0,True,905
+844,Editar informações do condomínio com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,6.0,True,910
+845,Editar condomínio deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,8.0,True,911
+851,Editar informando um CNPJ já existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,7.0,True,917
+852,Editar informando um CNPJ inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,12,185,M,10.0,True,918
+860,Acessar página sem fazer login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,186,M,55.0,True,926
+864,Cancelar cadastro de moradia com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,187,M,2.0,True,930
+883,Editar informando um identificador já existente,Imported from sheet,Imported from sheet,M,Imported from sheet,12,189,M,7.0,True,949
+889,Editar chamado deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,12,191,M,8.0,True,955
+907,Tentar excluir sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,193,M,55.0,True,973
+918,Tentar reservar sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,194,M,55.0,True,984
+919,Editar informações da reserva com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,6.0,True,985
+920,Editar reserva deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,8.0,True,986
+926,Tentar alterar sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,195,M,55.0,True,992
+943,Cancelar cadastro de usuário com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,2.0,True,1009
+949,Tentar cadastrar sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,198,M,55.0,True,1015
+955,Recuperar senha com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,200,M,30.0,True,1021
+956,Recuperar senha com e-mail inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,12,200,M,57.0,True,1022
+957,Recuperar senha com e-mail não cadastrado,Imported from sheet,Imported from sheet,M,Imported from sheet,12,200,M,58.0,True,1023
+962,Cancelar cadastro de enquete com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,201,M,2.0,True,1028
+965,Editar informações da enquete com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,12,202,M,6.0,True,1031
+966,Editar enquete deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,12,202,M,8.0,True,1032
+990,Tentar votar sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,12,205,M,55.0,True,1056
+1000,Cancelar cadastro de transacação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,209,M,2.0,True,1068
+1003,Editar informações da transação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,210,M,6.0,True,1071
+1004,Editar transação deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,13,210,M,8.0,True,1072
+1031,Cancelar cadastro de categoria com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,214,M,2.0,True,1099
+1034,Editar informações da categoria com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,215,M,6.0,True,1102
+1035,Editar categoria deixando os campos obrigatórios do formulário em branco,Imported from sheet,Imported from sheet,M,Imported from sheet,13,215,M,8.0,True,1103
+1060,Cancelar cadastro de conta com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,219,M,2.0,True,1128
+1063,Editar informações da conta com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,220,M,6.0,True,1131
+1073,Cancelar cadastro de transação com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,13,221,M,2.0,True,1141
+1083,Login com usuário inexistente,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,59.0,True,1151
+1085,Login com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,61.0,True,1153
+1086,Acessar a tela protegida sem ter realizado autenticação,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,13.0,True,1154
+1087,Testar com senha no formato inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,233,M,25.0,True,1155
+1090,Registrar com senha diferente da confirmação,Imported from sheet,Imported from sheet,M,Imported from sheet,14,234,M,39.0,True,1158
+1092,Registrar com senha no formato inválido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,234,M,43.0,True,1160
+1094,Editar projeto com data inicial maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,62.0,True,1162
+1095,Editar projeto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,6.0,True,1163
+1096,Editar projeto com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,8.0,True,1164
+1101,Editar projeto com data inválida,Imported from sheet,Imported from sheet,M,Imported from sheet,14,235,M,44.0,True,1169
+1102,Cadastro de projeto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,236,M,1.0,True,1170
+1103,Cancelar cadastro de projeto com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,236,M,2.0,True,1171
+1106,Cadastro de projeto com data inicial maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,14,236,M,62.0,True,1174
+1107,Cadastro de projeto com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,236,M,4.0,True,1175
+1112,Realizar ação sem ter feito login,Imported from sheet,Imported from sheet,M,Imported from sheet,14,237,M,55.0,True,1180
+1121,Cadastro de User Story com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,239,M,1.0,True,1189
+1122,Cadastro de US com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,239,M,4.0,True,1190
+1123,Cancelar cadastro com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,239,M,2.0,True,1191
+1127,Editar User story com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,240,M,6.0,True,1195
+1128,Editar User story sem campos obrigatórios preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,14,240,M,8.0,True,1196
+1137,Cadastro de Sprint com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,1.0,True,1205
+1138,Cadastro de Sprint com campo obrigatório não preenchido,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,4.0,True,1206
+1142,Cadastro de sprint com data inicial maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,14,242,M,62.0,True,1210
+1143,Editar Sprint com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,6.0,True,1211
+1144,Editar Sprint sem campos obrigatórios preenchidos,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,8.0,True,1212
+1149,Editar sprint fora do período do projeto,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,64.0,True,1217
+1150,Editar sprint com período conflitante com outra,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,65.0,True,1218
+1151,Editar sprint com data inicial maior que data final,Imported from sheet,Imported from sheet,M,Imported from sheet,14,243,M,62.0,True,1219
+1158,Cancelar cadastro de <entidade> com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,246,M,2.0,True,1226
+1162,Editar informações da <entidade> com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,14,247,M,6.0,True,1230
+1189,O campo senha deve seguir regra <regra>,Imported from sheet,Imported from sheet,M,Imported from sheet,15,252,M,25.0,True,1257
+1249,Editar Usuário com Sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,16,262,M,6.0,True,1317
+1273,Editar Perfil com sucesso,Imported from sheet,Imported from sheet,M,Imported from sheet,16,264,M,6.0,True,1341
