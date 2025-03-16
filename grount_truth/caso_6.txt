@@ -1,0 +1,6 @@
+ Scenario: Cancelar cadastro de perfil com sucesso
+    Given um usuário com permissão para gerenciar perfis
+    And um perfil cadastrado no sistema
+    When o usuário cancela o cadastro do perfil
+    Then o sistema deve remover o cadastro do perfil
+    And o sistema deve exibir uma mensagem de sucesso

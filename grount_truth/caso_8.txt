@@ -1,0 +1,6 @@
+Scenario: Editar reserva com campos obrigatórios em branco
+    Given um usuário com permissão para editar reservas
+    And uma reserva existente
+    When o usuário edita a reserva deixando campos obrigatórios em branco
+    Then o sistema deve impedir a edição da reserva
+    And o sistema deve exibir mensagens de erro indicando os campos obrigatórios em branco

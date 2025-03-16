@@ -1,0 +1,5 @@
+Scenario: Cadastro com identificador existente
+    Given um usuário tenta se cadastrar com um identificador já existente no sistema
+    When o usuário submete o formulário de cadastro
+    Then o sistema deve exibir uma mensagem de erro informando que o identificador já está em uso
+    And o sistema não deve criar um novo perfil

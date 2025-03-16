@@ -1,0 +1,5 @@
+Scenario: Cadastro de sprint com data inicial maior que data final
+    Given um usuário está cadastrando uma nova sprint
+    When o usuário informa uma data inicial posterior à data final
+    Then o sistema deve impedir o cadastro da sprint
+    And o sistema deve exibir uma mensagem de erro informando que a data inicial não pode ser posterior à data final

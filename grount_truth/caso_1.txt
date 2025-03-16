@@ -1,0 +1,6 @@
+Scenario: Validação da regra de senha
+    Given uma regra de senha definida
+    When um usuário informa uma senha
+    Then o sistema deve validar a senha de acordo com a regra
+    And o sistema deve informar ao usuário se a senha é válida ou não
+    And o sistema deve exibir uma mensagem de erro caso a senha seja inválida

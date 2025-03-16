@@ -1,0 +1,5 @@
+Scenario: Editar informações do condomínio com sucesso
+    Given um usuário autorizado a editar informações do condomínio
+    When o usuário edita as informações do condomínio
+    Then o sistema deve atualizar as informações do condomínio com os novos dados
+    And o sistema deve exibir uma mensagem de sucesso

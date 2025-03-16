@@ -1,0 +1,7 @@
+Scenario: Registrar com senha diferente da confirmação
+    Given um usuário está na página de registro
+    When o usuário preenche o campo "senha" com um valor
+    And o usuário preenche o campo "confirmar senha" com um valor diferente
+    And o usuário clica em "registrar"
+    Then o sistema deve impedir o registro do usuário
+    And o sistema deve exibir uma mensagem de erro informando que as senhas não coincidem

@@ -1,0 +1,5 @@
+Scenario: Realizar ação sem login
+    Given um usuário não autenticado
+    When o usuário tenta realizar uma ação que requer autenticação
+    Then o sistema deve impedir o usuário de realizar a ação
+    And o sistema deve redirecionar o usuário para a página de login

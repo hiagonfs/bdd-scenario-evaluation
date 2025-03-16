@@ -1,0 +1,6 @@
+Scenario: Cancelar cadastro de área comum com sucesso
+    Given um usuário com permissão para gerenciar áreas comuns
+    And uma área comum cadastrada no sistema
+    When o usuário cancela o cadastro da área comum
+    Then o sistema deve remover o cadastro da área comum
+    And o sistema deve exibir uma mensagem de sucesso
